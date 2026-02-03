@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         input.setHint("Enter city name");
         builder.setView(input);
 
-        builder.setPositiveButton("Add", (dialog, which) ->
+        builder.setPositiveButton("Confirm", (dialog, which) ->
         {
             String newCity = input.getText().toString().trim();
             if (!newCity.isEmpty())
